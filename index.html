@@ -7,9 +7,9 @@
 
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link
-        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&amp;family=Syne:wght@400..800&amp;display=swap"
         rel="stylesheet">
 
     <!-- icon css -->
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/boostrap.css">
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>e-farm foundation</title>
 
     <!-- script -->
     <script src="assets/js/boostrap.js"></script>
@@ -29,7 +29,7 @@
 
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <div class="page w-100 d-inline-block position-relative">
 
         <!-- header -->
@@ -76,56 +76,67 @@
         <div class="hero w-100 d-inline-block">
             <swiper-container class="mySwiper" space-between="30" centered-slides="true" autoplay-delay="2500"
                 autoplay-disable-on-interaction="false">
-                <swiper-slide class="slide_1">
+                <swiper-slide class="slide_1 swiper-slide-prev" role="group" aria-label="1 / 3"
+                    style="width: 1351px; margin-right: 30px;">
                     <div class="hero_text d-flex align-items-center justify-content-center gap-3 flex-column">
-                        <h2 data-aos="fade-up" data-aos-duration="2000">Pure Agriculture Products</h2>
-                        <p data-aos="fade-up" data-aos-duration="2500">Discover organic, sustainable and seasonal food
+                        <h2 data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">Pure Agriculture
+                            Products</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">Discover organic, sustainable
+                            and seasonal food
                             from our farm</p>
-                            <a class="main_button" href="#">
+                        <a class="main_button mt-2" href="#">
+                            <span class="main_flex">
+                                <span class="">Get A Quote</span>
                                 <span class="main_flex">
-                                    <span class="">Get A Quote</span>
-                                    <span class="main_flex">
-                                        <i class="bi bi-arrow-right"></i>
-                                    </span>
+                                    <i class="bi bi-arrow-right"></i>
                                 </span>
-                            </a>
+                            </span>
+                        </a>
                     </div>
                 </swiper-slide>
-                <swiper-slide class="slide_2">
+                <swiper-slide class="slide_2 swiper-slide-active" role="group" aria-label="2 / 3"
+                    style="width: 1351px; margin-right: 30px;">
                     <div class="hero_text d-flex align-items-center justify-content-center gap-3 flex-column">
-                        <h2 data-aos="fade-up" data-aos-duration="2000">High Quality Fresh Organic Foods</h2>
-                        <p data-aos="fade-up" data-aos-duration="2500">Discover organic, sustainable and seasonal food
+                        <h2 data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">High Quality Fresh
+                            Organic Foods</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">Discover organic, sustainable
+                            and seasonal food
                             from our farm</p>
-                            <a class="main_button" href="#">
+                        <a class="main_button mt-2" href="#">
+                            <span class="main_flex">
+                                <span class="">Get A Quote</span>
                                 <span class="main_flex">
-                                    <span class="">Get A Quote</span>
-                                    <span class="main_flex">
-                                        <i class="bi bi-arrow-right"></i>
-                                    </span>
+                                    <i class="bi bi-arrow-right"></i>
                                 </span>
-                            </a>
+                            </span>
+                        </a>
                     </div>
                 </swiper-slide>
-                <swiper-slide class="slide_3">
+                <swiper-slide class="slide_3 swiper-slide-next" role="group" aria-label="3 / 3"
+                    style="width: 1351px; margin-right: 30px;">
                     <div class="hero_text d-flex align-items-center justify-content-center gap-3 flex-column">
-                        <h2 data-aos="fade-up" data-aos-duration="2000">Organic Food Delivery</h2>
-                        <p data-aos="fade-up" data-aos-duration="2500">Discover organic, sustainable and seasonal food
+                        <h2 data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">Organic Food
+                            Delivery</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" class="aos-init">Discover organic, sustainable
+                            and seasonal food
                             from our farm</p>
-                            <a class="main_button" href="#">
+                        <a class="main_button mt-2" href="#">
+                            <span class="main_flex">
+                                <span class="">Get A Quote</span>
                                 <span class="main_flex">
-                                    <span class="">Get A Quote</span>
-                                    <span class="main_flex">
-                                        <i class="bi bi-arrow-right"></i>
-                                    </span>
+                                    <i class="bi bi-arrow-right"></i>
                                 </span>
-                            </a>
+                            </span>
+                        </a>
                     </div>
                 </swiper-slide>
             </swiper-container>
         </div>
         <div class="shape">
             <svg xmlns="http://www.w3.org/2000/svg" width="1367" height="71" viewBox="0 0 1367 71" fill="none">
-                <path d="M0.5 69.5V0C180.509 55.057 516.356 69.1692 672.639 69.5H683.75H801.196C1020.87 62.9539 1260.75 23.6243 1367 1.5V69.5H801.196C761.06 70.696 721.598 70.7977 683.75 69.5C680.156 69.5079 676.451 69.5081 672.639 69.5H0.5Z" fill="#D9D9D9"/>
+                <path
+                    d="M0.5 69.5V0C180.509 55.057 516.356 69.1692 672.639 69.5H683.75H801.196C1020.87 62.9539 1260.75 23.6243 1367 1.5V69.5H801.196C761.06 70.696 721.598 70.7977 683.75 69.5C680.156 69.5079 676.451 69.5081 672.639 69.5H0.5Z"
+                    fill="#D9D9D9"></path>
             </svg>
         </div>
 
@@ -133,20 +144,20 @@
         <div class="service padding_block pt-0">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="card p-5 d-flex align-items-center flex-row gap-4 h-100" data-aos="fade-right"
-                            data-aos-duration="1000">
+                    <div class="col-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-5 d-flex align-items-center flex-row gap-4 h-100 aos-init"
+                            data-aos="fade-right" data-aos-duration="1000">
                             <div class="icon">
                                 <i class="bi bi-truck"></i>
                             </div>
                             <div class="text">
                                 <h4 class="fw-bold">Fast Delivery </h4>
-                                <p>West & East coast dispatch</p>
+                                <p>West &amp; East coast dispatch</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card p-5 d-flex align-items-center flex-row gap-4 h-100" data-aos="fade-up"
+                    <div class="col-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-5 d-flex align-items-center flex-row gap-4 h-100 aos-init" data-aos="fade-up"
                             data-aos-duration="1000">
                             <div class="icon">
                                 <i class="bi bi-arrow-repeat"></i>
@@ -157,9 +168,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card p-5 d-flex align-items-center flex-row gap-4 h-100" data-aos="fade-left"
-                            data-aos-duration="1000">
+                    <div class="col-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-5 d-flex align-items-center flex-row gap-4 h-100 aos-init"
+                            data-aos="fade-left" data-aos-duration="1000">
                             <div class="icon">
                                 <i class="bi bi-headset"></i>
                             </div>
@@ -177,57 +188,63 @@
         <div class="abt padding_block margin_block mb-0">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-5 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="main_image w-80 d-inline-block position-relative">
-                            <img class="rounded" src="assets/images/garden-1549246.jpg" alt="">
+                            <img class="rounded" src="assets/images/l1.png" alt="">
                             <div class="image d-inline-block ">
-                                <img src="assets/images/lettuce-139602.jpg" alt="">
+                                <img src="assets/images/l2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-7">
                         <div class="">
-                            <p class="main_heading">History e-farm</p>
-                            <h2>Organic & Healthy Food</h2>
-                            <p class="mb-4 text_justify">We are a Section-8 Company registered under the Companies Act 2013. Our
+                            <p data-aos="fade-up" data-aos-duration="1000" class="main_heading aos-init">History e-farm
+                            </p>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" class="aos-init">Organic &amp; Healthy Food
+                            </h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="mb-4 text_justify aos-init">We are a
+                                Section-8 Company registered under the Companies Act 2013. Our
                                 headquarter is in Bangalore while our Hydroponic Farm is located at Jawadhu Hills in the
                                 Tiruvannamalai District of Tamil Nadu. More than 80% of the tribal communities in this
                                 region live below Poverty Line. The Hydroponic Farm aims to help boost local economy by
                                 creating jobs and promoting entrepreneurship.</p>
                         </div>
                         <div class="row">
-                            <div class="col-6"  data-aos="fade-right" data-aos-duration="1000">
+                            <div class="col-6 aos-init" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="card p-4 d-flex align-items-center flex-row gap-4 h-100">
                                     <div class="icon">
                                         <img src="assets/images/icon/vision.png" alt="">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold">Our Vision</h4>
-                                        <p class="text_justify">Sustainable eco-friendly farming led and managed by people with
+                                        <p class="text_justify">Sustainable eco-friendly farming led and managed by
+                                            people with
                                             disabilities.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-6 aos-init" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="card p-4 d-flex align-items-center flex-row gap-4 h-100">
                                     <div class="icon">
                                         <img src="assets/images/icon/mission.png" alt="">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold">Our Mission</h4>
-                                        <p class="text_justify">To promote technology-driven, financially sustainable farming and
+                                        <p class="text_justify">To promote technology-driven, financially sustainable
+                                            farming and
                                             entrepreneurship among the poor.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8 mt-4" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-8 mt-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="card p-4 d-flex align-items-center flex-row gap-4 h-100">
                                     <div class="icon">
                                         <img src="assets/images/icon/commercial.png" alt="">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold">Commercial Possibilities</h4>
-                                        <p class="text_justify">We are a young company and open to different options for collaboration.
+                                        <p class="text_justify">We are a young company and open to different options for
+                                            collaboration.
                                         </p>
                                         <ul>
                                             <li>Are you interested in <b>contract farming?</b></li>
@@ -237,7 +254,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="d-flex align-items-end justify-content-end w-100 h-100">
                                     <a class="main_button" href="#">
                                         <span class="main_flex">
@@ -257,8 +274,15 @@
 
 
         <!-- dummy slider -->
-        <div class="dummy_slider">
-            
+        <div class="dummy_slider aos-init" data-aos="fade-up" data-aos-duration="1000">
+            <marquee behavior="" direction="">
+                <span class="d-flex align-items-center gap-4">
+                    <span>e-farm foundation</span>
+                    <span class="">e-farm foundation</span>
+                    <span>e-farm foundation</span>
+                    <span class="">e-farm foundation</span>
+                </span>
+            </marquee>
         </div>
 
 
@@ -268,14 +292,17 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="text text-center">
-                            <p class="main_heading">e-farm Products</p>
-                            <h2 class="m-0">Best Products in the World</h2>
-                            <p class="mb-4">We are a Section-8 Company registered under the Companies Act 2013.</p>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="main_heading aos-init">e-farm Products
+                            </p>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" class="m-0 aos-init">Best Products in the
+                                World</h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="mb-4 aos-init">We are a Section-8
+                                Company registered under the Companies Act 2013.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="process_box">
                             <div class="card overflow-hidden position-relative">
                                 <div class="process_image position-relative">
@@ -285,10 +312,10 @@
                                             viewBox="0 0 102 102" fill="none">
                                             <path
                                                 d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
-                                                fill="white" />
+                                                fill="white"></path>
                                             <path
                                                 d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
-                                                stroke="white" />
+                                                stroke="white"></path>
                                         </svg>
                                     </div>
                                 </div>
@@ -301,7 +328,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="process_box">
                             <div class="card overflow-hidden position-relative">
                                 <div class="process_image position-relative">
@@ -311,10 +338,10 @@
                                             viewBox="0 0 102 102" fill="none">
                                             <path
                                                 d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
-                                                fill="white" />
+                                                fill="white"></path>
                                             <path
                                                 d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
-                                                stroke="white" />
+                                                stroke="white"></path>
                                         </svg>
                                     </div>
                                 </div>
@@ -327,7 +354,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="process_box">
                             <div class="card overflow-hidden position-relative">
                                 <div class="process_image position-relative">
@@ -337,10 +364,10 @@
                                             viewBox="0 0 102 102" fill="none">
                                             <path
                                                 d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
-                                                fill="white" />
+                                                fill="white"></path>
                                             <path
                                                 d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
-                                                stroke="white" />
+                                                stroke="white"></path>
                                         </svg>
                                     </div>
                                 </div>
@@ -353,7 +380,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="process_box">
                             <div class="card overflow-hidden position-relative">
                                 <div class="process_image position-relative">
@@ -363,10 +390,10 @@
                                             viewBox="0 0 102 102" fill="none">
                                             <path
                                                 d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
-                                                fill="white" />
+                                                fill="white"></path>
                                             <path
                                                 d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
-                                                stroke="white" />
+                                                stroke="white"></path>
                                         </svg>
                                     </div>
                                 </div>
@@ -387,7 +414,7 @@
         <!-- video section -->
         <div class="video padding_block">
             <div class="video_text text-center">
-                <div class="video_btn mb-3">
+                <div class="video_btn mb-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                     <a href="#">
                         <div class="video_btn_image position-relative">
                             <img src="assets/images/video-bg.png" alt="">
@@ -395,12 +422,15 @@
                         </div>
                     </a>
                 </div>
-                <h2 class="text-white">Organic Vegetables in Our Store</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="text-white aos-init">Organic Vegetables in Our
+                    Store</h2>
             </div>
         </div>
         <div class="shape">
             <svg xmlns="http://www.w3.org/2000/svg" width="1367" height="71" viewBox="0 0 1367 71" fill="none">
-                <path d="M0.5 69.5V0C180.509 55.057 516.356 69.1692 672.639 69.5H683.75H801.196C1020.87 62.9539 1260.75 23.6243 1367 1.5V69.5H801.196C761.06 70.696 721.598 70.7977 683.75 69.5C680.156 69.5079 676.451 69.5081 672.639 69.5H0.5Z" fill="#D9D9D9"/>
+                <path
+                    d="M0.5 69.5V0C180.509 55.057 516.356 69.1692 672.639 69.5H683.75H801.196C1020.87 62.9539 1260.75 23.6243 1367 1.5V69.5H801.196C761.06 70.696 721.598 70.7977 683.75 69.5C680.156 69.5079 676.451 69.5081 672.639 69.5H0.5Z"
+                    fill="#D9D9D9"></path>
             </svg>
         </div>
 
@@ -411,14 +441,17 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="text text-center">
-                            <p class="main_heading"></i>e-farm Products</p>
-                            <h2 class="m-0">Best Products in the World</h2>
-                            <p class="mb-4">We are a Section-8 Company registered under the Companies Act 2013.</p>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="main_heading aos-init">e-farm Products
+                            </p>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" class="m-0 aos-init">Best Products in the
+                                World</h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="mb-4 aos-init">We are a Section-8
+                                Company registered under the Companies Act 2013.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card position-relative overflow-hidden">
                             <div class="product_box">
                                 <div class="image">
@@ -443,9 +476,14 @@
                             </ul>
                             <div class="shape">
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
-                                        <path d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z" fill="white"></path>
-                                        <path d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z" stroke="white"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102"
+                                        viewBox="0 0 102 102" fill="none">
+                                        <path
+                                            d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
+                                            stroke="white"></path>
                                     </svg>
                                 </div>
                                 <div class="process_number position-absolute">
@@ -454,7 +492,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card position-relative overflow-hidden">
                             <div class="product_box">
                                 <div class="image">
@@ -479,9 +517,14 @@
                             </ul>
                             <div class="shape">
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
-                                        <path d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z" fill="white"></path>
-                                        <path d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z" stroke="white"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102"
+                                        viewBox="0 0 102 102" fill="none">
+                                        <path
+                                            d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
+                                            stroke="white"></path>
                                     </svg>
                                 </div>
                                 <div class="process_number position-absolute">
@@ -490,7 +533,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card position-relative overflow-hidden">
                             <div class="product_box">
                                 <div class="image">
@@ -515,18 +558,23 @@
                             </ul>
                             <div class="shape">
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
-                                        <path d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z" fill="white"></path>
-                                        <path d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z" stroke="white"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102"
+                                        viewBox="0 0 102 102" fill="none">
+                                        <path
+                                            d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
+                                            stroke="white"></path>
                                     </svg>
                                 </div>
                                 <div class="process_number position-absolute">
-                                    <p><i class="bi bi-cart4"></i></i></p>
+                                    <p><i class="bi bi-cart4"></i></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 aos-init" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card position-relative overflow-hidden">
                             <div class="product_box">
                                 <div class="image">
@@ -551,9 +599,14 @@
                             </ul>
                             <div class="shape">
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
-                                        <path d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z" fill="white"></path>
-                                        <path d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z" stroke="white"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102"
+                                        viewBox="0 0 102 102" fill="none">
+                                        <path
+                                            d="M1.00928 2.22105C0.996656 1.79348 0.997157 1.38529 1.00928 1V2.22105C1.22058 9.37557 5.10788 21.9536 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V2.22105Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M1.00928 1C0.794249 7.8323 4.2348 21.8696 19.7173 23.3602H35.8447C50.467 23.7743 80.0987 33.4224 81.6469 68.7019V81.7453C81.2169 87.9565 84.4854 100.503 101 101H1.00928V1Z"
+                                            stroke="white"></path>
                                     </svg>
                                 </div>
                                 <div class="process_number position-absolute">
@@ -581,15 +634,15 @@
                                     <h5>Sign Up To Our Newletters</h5>
                                 </div>
                                 <div class="para">
-                                    <p>Subscribe to our Newsletter & Event right now to be updated</p>
+                                    <p>Subscribe to our Newsletter &amp; Event right now to be updated</p>
                                 </div>
                                 <form class="w-100" action="">
                                     <div class="input_box w-100">
                                         <input type="text" placeholder="Email Address*">
                                     </div>
-                                    <a class="main_button" href="#">
-                                        <span class="main_flex">
-                                            <span class="">Get A Quote</span>
+                                    <a class="main_button highlight_button w-100" href="#">
+                                        <span class="main_flex w-100">
+                                            <span class="text-center">Get In Touch</span>
                                             <span class="main_flex">
                                                 <i class="bi bi-arrow-right"></i>
                                             </span>
@@ -654,7 +707,7 @@
                                                         <li><a href="#">What We Offer</a></li>
                                                         <li><a href="#">Latest News</a></li>
                                                         <li><a href="#">Project</a></li>
-                                                        <li><a href="#">Terms & Condition</a></li>
+                                                        <li><a href="#">Terms &amp; Condition</a></li>
                                                         <li><a href="#">Privacy Policy</a></li>
                                                     </ul>
                                                 </div>
@@ -668,7 +721,8 @@
                                                     </a>
                                                 </div>
                                                 <div class="text">
-                                                    <p class="text_justify">We carry out our mission based on the values of impeccable
+                                                    <p class="text_justify">We carry out our mission based on the values
+                                                        of impeccable
                                                         business reputation, social responsibility, respect for human
                                                         dignity and synergetic and result-oriented partnerships.</p>
                                                 </div>
@@ -693,11 +747,6 @@
             </div>
         </footer>
 
-
-
-
-
-
     </div>
 
 
@@ -705,6 +754,8 @@
         AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
 
 </body>
 
