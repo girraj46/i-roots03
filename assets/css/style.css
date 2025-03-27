@@ -129,7 +129,13 @@ h2 {
 .dummy_slider span > span:nth-child(even):hover,.dummy_slider span > span:nth-child(odd):hover{
   color: var(--color-primary);
 }
-
+.dummy_slider img{
+  min-width: 50px;
+}
+.p_text  {
+  text-align: left;
+  padding-right: 60px;
+}
 /* i{
   position: relative;
   opacity: 0;
