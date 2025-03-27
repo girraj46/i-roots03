@@ -747,3 +747,13 @@ justify-content: center;
   background: var(--color-highlight);
   color: var(--color-secondary);
 }
+.video_shape{
+  position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+    bottom: -30px;
+    /* background: red; */
+    left: 0;
+}
