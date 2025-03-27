@@ -253,6 +253,8 @@ img {
   position: relative;
   z-index: 3;
   color: var(--white);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .hero swiper-slide:after {
