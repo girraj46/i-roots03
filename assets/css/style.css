@@ -165,7 +165,7 @@ i::before {
 }
 
 img {
-  filter: brightness(.7);
+  filter: brightness(.5);
 }
 
 /* header css start */
@@ -443,7 +443,7 @@ img {
   filter: none;
 }
 
-.footer_main:before,
+/* .footer_main:before, */
 .footer_main:after {
   position: absolute;
   top: -100px;
