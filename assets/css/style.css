@@ -165,7 +165,7 @@ i::before {
 }
 
 img {
-  filter: brightness(.5);
+  filter: brightness(.8);
 }
 
 /* header css start */
