@@ -674,6 +674,34 @@ img {
   color: var(--color-text);
   font-weight: 500;
 }
+.product .product_card .image{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.product .product_card h4{
+  transition: .4s;
+  color: var(--color-secondary);
+}
+.product .product_card .image img{
+  transition: .4s;
+  width: 100%;
+  height: 100%;
+}
+.product_card {
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+.product_card:hover img{
+  transform: scale(1.2);
+}
+.product_card:hover h4{
+  color: var(--color-primary);
+}
 
 .product_box .p_sub_heading h5 {
   color: var(--color-secondary);
