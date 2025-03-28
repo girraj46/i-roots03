@@ -259,7 +259,7 @@ img {
 
 .hero swiper-slide:after {
   background: var(--color-dark);
-  opacity: .3;
+  opacity: .6;
   content: "";
   width: 100%;
   height: 100%;
@@ -267,6 +267,23 @@ img {
   top: 0;
   left: 0;
   z-index: -1;
+}
+.advertisement2{
+  position: relative;
+  background: var(--white);
+  /* background: url("../images/oga.png"); */
+}
+.advertisement2::after{
+  position: absolute;
+  background: url("../images/oga.png");
+  content: "";
+  width: 40%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .hero swiper-slide.slide_1 {
@@ -385,7 +402,7 @@ img {
   width: 80%;
 }
 
-.main_image:after {
+.main_image:after,.main_image:before {
   content: "";
   background: url("../images/h1-bg04.png");
   position: absolute;
@@ -394,6 +411,9 @@ img {
   width: 30%;
   height: 50%;
   z-index: 2;
+}
+.main_image:before{
+  background: url("../images/icon/star.png");
 }
 
 .main_image img {
@@ -404,7 +424,7 @@ img {
 .abt .main_image .image {
   position: absolute;
   width: 80%;
-  bottom: -5rem;
+  bottom: 0;
   right: -15%;
   border-radius: 1rem;
   overflow: hidden;
@@ -919,3 +939,34 @@ h2.item-title{
   50% { transform: translateY(-20px); }
   100% { transform: translateY(0px); }
 }
+
+.advertisement .main_image > img{
+  border-radius: 50% 50% 0% 50% !important;
+}
+
+.advertisement .main_image:after{
+  top: 1rem;
+    height: 26%;
+}
+
+.tp_header{
+  width: 100%;
+  display: inline-block;
+  background: var(--color-primary);
+}
+
+.tp_header a,.tp_header span,.tp_header i{
+  transition: .4s;
+  color: var(--white);
+  font-size: 14px;
+}
+.header_content2{
+  border-radius: 0;
+  background-color: transparent;
+}
+.header_content3 a{
+  color: var(--white) !important;
+}
+
+
+
