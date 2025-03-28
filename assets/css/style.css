@@ -683,6 +683,7 @@ img {
 .product .product_card h4{
   transition: .4s;
   color: var(--color-secondary);
+  text-align: center;
 }
 .product .product_card .image img{
   transition: .4s;
