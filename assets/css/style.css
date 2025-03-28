@@ -751,7 +751,7 @@ justify-content: center;
 }
 .video_shape{
   position: absolute;
-    z-index: 2;
+    z-index: 1;
     width: 100%;
     display: inline-block;
     height: 100px;
