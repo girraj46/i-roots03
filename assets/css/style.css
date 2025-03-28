@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Syne", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -98,7 +98,7 @@ h2 {
 }
 
 .main_heading {
-  padding-left: 30px;
+  padding-left: 40px;
   position: relative;
   color: var(--color-primary);
   font-weight: 600;
@@ -159,9 +159,9 @@ i::before {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("../images/icon/plant-leaf.png") no-repeat center;
+  background: url("../images/fav-icon1.png") no-repeat center;
   background-size: contain;
-  width: 20px;
+  width: 30px;
   height: 100%;
   /* background-color: red; */
 }
