@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -10,6 +10,12 @@
 body,
 html {
   background: var(--background-color);
+}
+
+.crinzel_font {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 :root {
@@ -24,6 +30,12 @@ html {
   --color-backgroundfield: #f4f5f3;
   --background-color: #faf9f7;
   --white: #fff;
+}
+.main_color{
+  color: var(--color-primary);
+}
+.secound_main_color{
+  color: var(--color-highlight);
 }
 
 /* common css start */
@@ -53,8 +65,8 @@ a {
   text-decoration: none;
 }
 
-.container-fluid {
-  max-width: 95%;
+.container {
+  max-width: 1260px;
 }
 
 [class*=agrile-icon-] {
@@ -73,7 +85,10 @@ a {
   border-radius: 18px;
   transition: .4s;
   border: none;
-  box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, .03137254901960784);
+  box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, .04);
+}
+.shadow{
+  box-shadow: 0 10px 10px #eee !important;
 }
 .text_justify{
   text-align: justify;
@@ -81,6 +96,9 @@ a {
 
 .card:hover {
   transform: translateY(-1rem);
+}
+.card_hover:hover {
+  transform: translateY(0rem);
 }
 
 h2 {
@@ -227,7 +245,7 @@ img {
     font-size: 10px;
 }
 .text{
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
   width: 100;
 }
@@ -255,7 +273,35 @@ img {
   color: var(--white);
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  position: relative;
+  overflow: hidden;
 }
+.bg_image{
+  min-height: 100%;
+  min-width: 100%;
+  display: inline-block;
+}
+.bg_image img{
+  filter: brightness(.4);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-animation: zoomin 15s ease-in infinite;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  display: inline-block;
+}
+
+@-webkit-keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
 
 .hero swiper-slide:after {
   background: var(--color-dark);
@@ -283,10 +329,16 @@ img {
   right: 0;
   background-size: cover;
   background-repeat: no-repeat;
-
+}
+.advertisement2 .icon{
+  padding: 1rem;
+  background: var(--white);
+  min-width: 70px !important;
+  border-radius: 50%;
+  box-shadow: 0 1px 10px 0 #eee;
 }
 
-.hero swiper-slide.slide_1 {
+/* .hero swiper-slide.slide_1 {
   background: url("../images/hero_slider_3.png");
 }
 
@@ -299,14 +351,35 @@ img {
 }
 .hero swiper-slide.slide_4 {
   background: url("../images/hero_slider_2.png");
-}
+} */
 
 .hero_text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   max-width: 60%;
   margin: auto;
   width: 100%;
   color: var(--white);
 }
+/* .hero_text h2,.hero_text p,.hero_text .banner_btn{
+  height: 0;
+  overflow: hidden;
+  animation: bannerHeight 2s linear  ;
+  transition: 10s;
+}
+@keyframes bannerHeight {
+  0%{
+    height: 0;
+  }
+  70%{
+    height: 50%;
+  }
+  100%{
+    height: fit-content;
+  }
+} */
 
 .hero swiper-slide h2 {
   font-size: 4.5rem;
@@ -322,7 +395,7 @@ img {
 }
 
 .hero {
-  height: 130vh;
+  height: calc(110vh - 20px);
   /* border-radius: 0 0 10% 10%; */
   overflow: hidden;
 }
@@ -970,3 +1043,38 @@ h2.item-title{
 
 
 
+
+.testimonials{
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+.given_star .qouts {
+  font-size: 48px;
+  width: auto;
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.testimonials .card{
+  padding-left: 90px !important;
+  margin-left: 100px;
+  margin-right: 12px;
+}
+.testi_image{
+  width: 150px;
+  height: 170px;
+  background: var(--white);
+  display: inline-block;
+  border-radius: 1rem;
+  overflow: hidden;
+  /* border: 1px solid var(--color-lighter); */
+  box-shadow: 0 10px 10px #eee;
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translate(10%, -50%);
+}
+.testi_image img{
+  width: 100%;
+  height: 100%;
+}
