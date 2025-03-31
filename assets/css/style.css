@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Montserrat", sans-serif;;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -13,7 +13,7 @@ html {
 }
 
 .crinzel_font {
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -106,7 +106,7 @@ h2 {
   color: var(--color-secondary);
   font-weight: 700;
   margin-bottom: 20px;
-  font-family: "Cinzel", serif;
+  font-family: "Montserrat", sans-serif;;
 }
 
 .padding_block {
@@ -357,12 +357,16 @@ img {
 .hero_text {
   position: absolute;
   top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 60%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  max-width: 100%;
   margin: auto;
   width: 100%;
   color: var(--white);
+  text-align: left;
+}
+.hero_text p,.hero_text h2,.hero_text .banner_btn{
+  max-width: 60%;
 }
 /* .hero_text h2,.hero_text p,.hero_text .banner_btn{
   height: 0;
@@ -1088,4 +1092,18 @@ h2.item-title{
 
 .contact .form input,.contact .form textarea{
   background: var(--background-color);
+}
+
+.banner_form{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%,-130%);
+  right: 0;
+  z-index: 9;
+  width: 35%;
+}
+.banner_form .card{
+  background-color: #fafafa2e;
+  backdrop-filter: blur(2px);
+  /* width: 40%; */
 }

@@ -8441,7 +8441,7 @@ td,th {
 
 
 /* .open-sans {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -8459,21 +8459,21 @@ td,th {
     --e-global-color-dark: #000;
     --e-global-color-border: #e8eae5;
     --e-global-color-backgroundfield: #f4f5f3;
-    --e-global-typography-primary-font-family: "Open Sans", sans-serif;
+    --e-global-typography-primary-font-family: "Montserrat", sans-serif;;
     --e-global-typography-primary-font-weight: 700;
     --e-global-typography-primary-text-transform: none;
     --e-global-typography-primary-font-style: normal;
     --e-global-typography-primary-text-decoration: none;
     --e-global-typography-primary-letter-spacing: 0;
     --e-global-typography-primary-line-height: 1.15;
-    --e-global-typography-secondary-font-family: "Open Sans", sans-serif;
+    --e-global-typography-secondary-font-family: "Montserrat", sans-serif;;
     --e-global-typography-secondary-font-weight: 700;
     --e-global-typography-secondary-text-transform: normal;
     --e-global-typography-secondary-font-style: normal;
     --e-global-typography-secondary-text-decoration: none;
     --e-global-typography-secondary-letter-spacing: 0;
     --e-global-typography-secondary-line-height: 1.15;
-    --e-global-typography-text-font-family: "Open Sans", sans-serif;
+    --e-global-typography-text-font-family: "Montserrat", sans-serif;;
     --e-global-typography-text-font-weight: 400;
     --e-global-typography-text-size: 16px;
     --e-global-typography-text-text-transform: normal;
@@ -8481,7 +8481,7 @@ td,th {
     --e-global-typography-text-text-decoration: none;
     --e-global-typography-text-letter-spacing: 0;
     --e-global-typography-text-line-height: 1.375;
-    --e-global-typography-accent-font-family: "Open Sans", sans-serif;
+    --e-global-typography-accent-font-family: "Montserrat", sans-serif;;
     --e-global-typography-accent-font-weight: 700;
     --e-global-typography-accent-size: 14px;
     --e-global-typography-accent-text-transform: capitalize;
