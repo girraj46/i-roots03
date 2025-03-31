@@ -509,10 +509,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 55px;
+  min-width: 70px;
+  background: var(--white);
+  border-radius: 50%;
+  padding: 10px;
 }
 .abt .icon img{
   width: 100%;
+}
+.abt .icon:first-child img{
+  width: 75%;
 }
 
 
