@@ -1097,7 +1097,7 @@ h2.item-title{
 .banner_form{
   position: absolute;
   top: 50%;
-  transform: translate(0%,-130%);
+  transform: translate(0%,-120%);
   right: 0;
   z-index: 9;
   width: 35%;
