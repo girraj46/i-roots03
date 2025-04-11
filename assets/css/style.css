@@ -197,7 +197,7 @@ img {
 .header {
   position: absolute;
   top: 40px;
-  z-index: 2;
+  z-index: 9;
 }
 
 .header_content {
