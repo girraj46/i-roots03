@@ -9,7 +9,7 @@
 
 body,
 html {
-  background: var(--background-color);
+  background: var(--white);
 }
 
 .crinzel_font {
@@ -489,6 +489,7 @@ img {
   width: 30%;
   height: 50%;
   z-index: 2;
+  background-repeat: no-repeat;
 }
 .main_image:before{
   background: url("../images/icon/star.png");
@@ -1135,12 +1136,14 @@ h2.item-title{
 .inner_banner{
   width: 100%;
   height: 400px;
-  /* display: inline-block; */
   background: url("../images/contact_inner.svg");
   background-position: center,center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.about_page{
+  background: url("../images/about_banner_bg.svg");
 }
 .inner_banner::after{
   position: absolute;
@@ -1167,4 +1170,26 @@ h2.item-title{
 }
 #contact .proc_image{
   bottom: 38px;
+}
+#about_us .main_image{
+  width: 70%;
+}
+#about_us .main_image:after{
+  right: -5rem;
+}
+#about_us .abt .main_image .image{
+  right: -20%;
+}
+.mission .icon{
+  max-width: 20%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.mission .icon img{
+  width: 100%;
+  /* height: 100%; */
 }
