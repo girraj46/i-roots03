@@ -1,0 +1,18 @@
+@media screen and (max-width:991px) {
+    h2{
+        font-size: 36px !important;
+    }
+    .advertisement2::after{
+        content: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner_form.contact{
+        display: none;
+    }
+    .hero_text p, .hero_text h2, .hero_text .banner_btn{
+        max-width: 100%;
+        text-align: center;
+    }
+}
