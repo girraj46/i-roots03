@@ -1193,3 +1193,42 @@ h2.item-title{
   width: 100%;
   /* height: 100%; */
 }
+.toggle_button{
+  display: none !important;
+}
+
+.toggle_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+}
+.toggle_button span{
+  width: 2rem;
+  height: 3px;
+  border-radius: 4px;
+  background: var(--white);
+}
+
+.text_dotted{
+  
+  white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+display: block;
+-webkit-line-clamp: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
