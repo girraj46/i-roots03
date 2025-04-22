@@ -21,4 +21,19 @@
         max-width: 100%;
         text-align: center;
     }
+    .tp_header_address{
+        display: none !important;
+    }
+    .footer-right-bottom  .ps-5{
+        padding-left: 0 !important;
+    }
+    .hero{
+        height: calc(70vh - 120px);
+    }
+    .menu_header{
+        display: none;
+    }
+}
+.swiper-pagination{
+    display: none;
 }
