@@ -721,7 +721,9 @@ img {
   left: 0;
   z-index: 3;
 }
-
+.process_number a{
+  color: var(--white);
+}
 .process_box {
   transition: .4s;
 }
@@ -899,7 +901,10 @@ justify-content: center;
 .product .card:hover .process_number{
   /* transform: rotate(135deg); */
   background: var(--color-highlight);
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+}
+.product .card:hover .process_number a{
+  color: var(--color-accent);
 }
 .video_shape{
   position: absolute;
@@ -1504,10 +1509,13 @@ display: block;
   font-weight: bold;
 }
 .product_details_main .right_product .product_feature_icon a{
-  color: var(--color-primary) !important;
+  color: var(--color-accent) !important;
 }
 .product_details_main .right_product .product_details_image{
   max-width: 150px;
+}
+.product_feature li span:first-child{
+  color: var(--color-primary);
 }
 
 
