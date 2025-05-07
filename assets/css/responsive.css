@@ -11,6 +11,12 @@
     .toggle_button{
         display: block !important;
       }
+      .product_details_main .media_wrap{
+        flex-wrap: wrap;
+      }
+      .product_details_main .left_product,.product_details_main .right_product{
+        width: 100%;
+      }
 }
 
 @media screen and (max-width:768px) {
@@ -57,6 +63,27 @@
     }
     .hover_slider_image:hover .item-content{
         padding-right: 0;
+    }
+    #contact .contact_left {
+        padding-right: 3rem !important;
+    }
+    #contact  .contact_right {
+        display: none !important;
+    }
+}
+@media screen and (max-width:576px){
+    .testimonials .card{
+        margin-left: 0;
+        padding-left: 1rem !important;
+    }
+    .testi_image{
+        display: none;
+    }
+    #contact .contact_left {
+        padding: 1rem !important;
+    }
+    #contact .proc_image{
+        bottom: 0px;
     }
 }
 .swiper-pagination{
