@@ -28,10 +28,35 @@
         padding-left: 0 !important;
     }
     .hero{
-        height: calc(70vh - 120px);
+        height: calc(120vh - 120px);
     }
     .menu_header{
         display: none;
+    }
+    .hero swiper-slide img{
+        min-height: 100vh;
+    }
+    .padding_block{
+        padding: 24px 0;
+    }
+    .shape.video_shape{
+        display: none;
+    }
+    .video{
+        height: 350px;
+        background-size: inherit;
+    }
+    .video_text {
+        padding: 0 1rem;
+    }
+    .gallery-wrap{
+        overflow: auto;
+    }
+    .gallery-wrap .hover_slider_image{
+        min-width: 280px;
+    }
+    .hover_slider_image:hover .item-content{
+        padding-right: 0;
     }
 }
 .swiper-pagination{
